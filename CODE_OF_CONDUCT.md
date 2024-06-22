@@ -75,10 +75,6 @@ You can reach the organization in many ways:
  * [E-mail][7]
  * Via staff members in the venue, they are easily identified.
 
-## Contributions
-
-This document had contributions from the following people:
-
 [3]: https://github.com/PixelsCamp/docs/blob/master/CODE_OF_CONDUCT.md
 [4]: http://creativecommons.org/licenses/by-sa/3.0/
 [5]: http://citizencodeofconduct.org/
