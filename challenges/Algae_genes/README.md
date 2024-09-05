@@ -8,8 +8,8 @@ New deep-learning model for gene annotation has been proposed [here][4]. Unfortu
 New genes identified means new links to functions, which can be used for species adaptation, product optimization using targeted mutation, strain and contamination classification.
 
 ## 🛠️ Tools
-1. GitHub [repository][5] of Helixer with smoothly working example.
-2. HelixerPost [repository][6] for output evaluation.
+1. [Helixer][5] repository with smoothly working example.
+2. [HelixerPost][6] repository for output evaluation.
 
 
 ## 🔦 Possible directions for the teams

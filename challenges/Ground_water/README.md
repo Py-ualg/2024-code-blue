@@ -3,13 +3,9 @@
 ## 🚀 Motivation
 Algarve and most of the Portugal is experiencing 10 years of droughts. [Agência Portuguesa do Ambiente (APA)][1] in Faro is responsible for monitoring the ground water levels in 7 separate aquifers which have around 150 probe stations.
 
-Below is the map of water levels of in Algarve west-coast aquifer, which shows that at some point it was 40cm from being contaminated by the sea water, which could have
-unprecedented consequences for the 
+Below is the map of water levels of in Algarve west-coast aquifer, which shows that at some point it was 40cm from being contaminated by the sea water, which could have unprecedented consequences for the citizens, businesses and the region as a whole.
 
 ## 🛠️ Tools
-
-For public use, they are quite limited
-
 1. Visualization in any automated plotting environment
 2. Interpolation maps (Inverse distance weighted (IDW) interpolation, [wiki][2], [python repo][3])
 3. API does not exist for the aquifer data, which are however publicly available (see [Data section](#-data))
