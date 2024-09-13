@@ -1,11 +1,11 @@
 # AI for optically detected fruit quality
 
 ## 🚀 Motivation
-Traditionally, 1000s of fruits are sampled and manually analyzed pre-harvest to provide insight into the fruit quality.
+Traditionally, 1000s of fruits are sampled and manually analyzed pre-harvest to provide insight into the fruit maturation and quality.
 
-Internal defects, sugar content, water content, are some of the parameters deciding optimal harvest time, resulting profits and customer content. These chemical properties translate into optical signal in a non-trivial way, which is ubiquitous for any chemistry. Analytical methods are accurate (Ground truth) but slow and expensive. With advent of AI, indirect optical methods and machine-learning/deep-learning models can do that at big scale and non-invasively. [Dario Passos][1] from CEOT (UAlg) is expert in designing such models. They are applicable in agriculture, but also in medicine, biotechnology etc.
+Internal defects, sugar content, dry matter content, are some of the parameters deciding optimal harvest time, resulting profits and customer content. These chemical composition translates into optical signal in a non-trivial way and chemometrics models try to do that quantitatively. Analytical methods are accurate (Ground truth) but slow and expensive. With advent of AI, machine-learning/deep-learning models can do that at scale, non-invasively. [Dario Passos][1] from CEOT (UAlg) is expert in designing such models. They are applicable in agriculture, but also in medicine, biotechnology etc.
 
-This is a perfect opportunity to dive into DL, convolutional neural networks and other DL models, because no unified architecture for chemometrics exists as of today. Moreover the collected data are 1D spectra, much easier to work with compared to large 2D images.
+This is a perfect opportunity to dive into DL, convolutional neural networks and other machine learning techniques, because no unified architecture for chemometrics exists as of today. Moreover the collected data are 1D spectra, much easier to work with compared to large 2D images.
 
 ## 🛠️ Tools
 
