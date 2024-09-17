@@ -3,7 +3,7 @@
 ## 🚀 Motivation
 Algarve region in south Portugal is experiencing a multi-year drought of 10 years.  [Agência Portuguesa do Ambiente (APA)][1] in Faro is responsible for monitoring groundwater level (quantity status)  and quality (Chemical status) in its 25 separate groundwater bodies, which correspond to 17 main aquifers. The monitoring of the groundwater levels is usually performed with a monthly frequency in around 150 observation points (wells) spread around the groundwater bodies.
 
-Below is the map of groundwater levels of in Algarve for one of the main aquifers in the region, called Querença-Silves aquifer (M5), which shows that during the month of September 2023, groundwater levels acheived negative values compared to mean-sea-level, thus, increasing the risk of sea water intrusion, which could have unprecedented consequences for the citizens, businesses and the region as a whole.
+Below is the map of groundwater levels of in Algarve for one of the main aquifers in the region, called Querença-Silves aquifer (M5), which shows that during the month of September 2023, groundwater levels reached negative values compared to mean-sea-level, thus, increasing the risk of sea water intrusion, which could have unprecedented consequences for the citizens, businesses and the region as a whole.
 
 <img src="https://github.com/Py-ualg/2024-code-blue/blob/main/challenges/Ground_water/Piezo_QS_092023.jpg" width="700"/>
 
