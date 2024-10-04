@@ -15,7 +15,7 @@ Inductiva.AI kindly provides access to all their simulators to develop your proj
 Contact us if you would wish to use an extra simulator at the event or if you have ideas which you would like to implement in order to coordinate with [inductiva][8].
 
 ## 💁 Info and mentoring
-Luís Cunha (Engineer at Inductiva.AI), [LI][9]
+Luís Cunha (Engineer at Inductiva.AI), [LI][9]\
 Hugo Penedones (CTO at Inductiva.AI), [LI][3], [Google scholar][4], [GitHub][5]\
 Luis Sarmento (CEO at Inductiva AI),  [LI][6], [Google scholar][7]
 
