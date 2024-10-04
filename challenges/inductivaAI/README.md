@@ -1,6 +1,6 @@
 # Inductiva.ai
 
-Provides simulators and cloud credits to use them during the hackathon.
+Inductiva.AI kindly provides access to all their simulators to develop your projects during the hackathon, under the mentoring of Luís Cunha.
 
 ## 🛠️ Tools
 ### Current simulators
