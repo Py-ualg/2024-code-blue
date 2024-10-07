@@ -19,10 +19,11 @@ Here is Dario's great [compilation][2] of notebooks and materials to get you sta
 
 ## 💾 Data
 
-* Publicly available datasets can be found here
-    * link 1
-    * link 2
-* For Kaggle style of challenge, dataset will be published on Friday 18/10
+* For Kaggle style of challenge, datasets and starter's NB can be found in `challenge_data` folder.
+
+## Complementary Resources
+* PDF article "Perspectives on deep learning for near-infrared spectral data modelling": It provides a high level overview of the challenges and opportunities of Deep Learning for Chemometrics and NIR spectral analysis.
+* [Youtube playlist][5] from "Deep Learning for NIR Chemometrics" hosted at UAlg in March 2024.
 
 ## 💁 Info and mentoring
 Dário Passos (CEOT, UAlg), [LI][3], [Google scholar][4], [GitHub][1]
@@ -31,3 +32,4 @@ Dário Passos (CEOT, UAlg), [LI][3], [Google scholar][4], [GitHub][1]
 [2]: https://github.com/dario-passos/DeepLearning_for_VIS-NIR_Spectra
 [3]: https://www.linkedin.com/in/dariopassos/
 [4]: https://scholar.google.co.uk/citations?hl=en&user=OiJ60TAAAAAJ
+[5]: https://www.youtube.com/playlist?list=PLu513tnmHNHePHVwARu-0oVKJg1zWWjrp
