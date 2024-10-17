@@ -17,8 +17,8 @@ Inductiva challenges you to come up with an use case of the Inductiva Python API
 1. [Inductiva API](https://inductiva.ai/): follow the `Get started now` button to create an account in the Inductiva API and get access to an API key.
 
 2. Check the following notebooks with examples of using the Inductiva API for coastal dynamics simulations. If you don't have Python and Jupyter installed in your machine, you can open them directly in Google Colab.
-    - [Notebook 1](coastal_area.ipynb): run a SWASH simulation of waves in a coastal area. ([open in Google Colab](https://githubtocolab.com/Py-ualg/2024-code-blue/tree/main/challenges/inductivaAI/coastal_area.ipynb))
-    - [Notebook 2](coastal_area_modify_inputs.ipynb): learn how to easily manipulate the input configuration of the previously example simulation. ([open in Google Colab](https://githubtocolab.com/Py-ualg/2024-code-blue/tree/main/challenges/inductivaAI/coastal_area_modify_inputs.ipynb))
+    - [Notebook 1](coastal_area.ipynb): run a SWASH simulation of waves in a coastal area. ([open in Google Colab](https://githubtocolab.com/Py-ualg/2024-code-blue/blob/main/challenges/inductivaAI/coastal_area.ipynb))
+    - [Notebook 2](coastal_area_modify_inputs.ipynb): learn how to easily manipulate the input configuration of the previously example simulation. ([open in Google Colab](https://githubtocolab.com/Py-ualg/2024-code-blue/blob/main/challenges/inductivaAI/coastal_area_modify_inputs.ipynb))
 
 ## 🔦 Possible directions for the teams
 
