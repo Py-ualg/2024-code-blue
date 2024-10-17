@@ -1,0 +1,45 @@
+$$$ HEADING
+PROJECT 'inductiva' '00'
+$$$ PHYSICAL CONSTANTS
+SET temp = 14.0
+SET salinity = 0.1
+SET dynvis = 0.001
+SET level = 0
+MODE DYNAMIC TWODIMENSIONAL
+
+$ Computational grid definition
+$ 190 and 168 is the number of meshes (1 less than the number of points that specify the mesh)
+$ in each direction
+CGRID 0.0 0.0 0. 990.0 840.0 198 168
+$ Bathymetry grid definition
+$ 5.0 and 5.0 is the size of each mesh (the distance between each defined point) in meters
+INPGRID BOTTOM REGULAR 0.0 0.0 0. 198 168 5.0 5.0
+$ Input file for bathymetry data
+READINP BOTTOM 1. 'bathymetry.bot' 5 0 FREE
+
+INIT CONSTANT 0.000000 0.000000 0.000000
+
+$ Specify boundary condition for the side where the waves appear from
+$ 6 is the wave height (peak to peak) in meters
+$ 5 is the wave period in seconds
+BOUNDCOND SIDE S BTYPE WEAKREFL CONSTANT REGULAR 6 5
+
+BOUNDCOND SIDE N CCW BTYPE RADIATION
+BOUNDCOND SIDE E CCW BTYPE RADIATION
+BOUNDCOND SIDE W CCW BTYPE RADIATION
+
+FRICTION MANNING 0.02
+VISCOSITY CONSTANT 0.0
+DISCRET UPW FIRST
+DISCRET CORRDEP FIRST
+TIMEI METHOD EXPLICIT cfllow=0.05  cflhig=0.5
+BLOCK 'COMPGRID' NOHEAD 'grid_positions.mat' LAYOUT 3 XP YP
+QUANTITY WATLEV excv=0.0
+BLOCK 'COMPGRID' NOHEAD 'water_level.mat' LAYOUT 3 WATLEV OUTPUT 000000.000 1 SEC
+BLOCK 'COMPGRID' NOHEAD 'velocity_x.mat' LAYOUT 3 VKSI OUTPUT 000000.000 1 SEC
+BLOCK 'COMPGRID' NOHEAD 'velocity_y.mat' LAYOUT 3 VETA OUTPUT 000000.000 1 SEC
+BLOCK 'COMPGRID' NOHEAD 'velocity_magnitude.mat' LAYOUT 3 VMAG OUTPUT 000000.000 1 SEC
+$$$ RUN
+TEST 1,0
+COMPUTE 000000.000 0.1 SEC 000140.000
+STOP
