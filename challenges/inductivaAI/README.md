@@ -10,7 +10,7 @@ With Inductiva, a cloud-based **High-Performance Computing (HPC)** platform desi
 
 The Inductiva API integrates open-source simulators that span several domains (GROMACS for molecular dynamics, OpenFOAM for fluid dynamics, SWASH for coastal dynamics, among many others).
 
-Inductiva challenges you to come up with an use case of the Inductiva Python API to run a simulation related to the ocean, providing Jupyter notebooks to easily get you started a coastal dynamics simulation.
+Inductiva challenges you to come up with an use case of the Inductiva Python API to run a simulation related to the ocean, providing Jupyter notebooks to easily get you started running a coastal dynamics simulation.
 
 ## 🛠️ Tools
 
@@ -27,7 +27,7 @@ Inductiva challenges you to come up with an use case of the Inductiva Python API
 2. Train an ML model using synthetic data, for example, to predict the size of a wave in a given point of the coast for different initial conditions of wave amplitude and period.
     - Start by generating a small dataset by running the same simulation case with different input parameters.
 3. Explore other bathymetry data (*e.g.*, try to use real bathymetry data from the [Algarve coast](https://emodnet.ec.europa.eu/geonetwork/emodnet/search?orgName=Portuguese%20Geographical%20Institute)) and tweak the simulation, for instance, by including a breakwater.
-4. If you're already experienced or interested in another [simulator integrated in the API](https://inductiva.ai/simulators), check them out (**e.g.**, [XBeach](https://tutorials.inductiva.ai/simulators/XBeach.html), [Reef3D](https://tutorials.inductiva.ai/simulators/Reef3D.html)).
+4. If you're already experienced or interested in another [simulator integrated in the API](https://inductiva.ai/simulators), check them out (*e.g.*, [XBeach](https://tutorials.inductiva.ai/simulators/XBeach.html), [Reef3D](https://tutorials.inductiva.ai/simulators/Reef3D.html)).
 5. Be creative. If you have any other ideas that better align with your background to explore the Inductiva API, talk to us and let's brainstorm!
 
 ## Complementary Resources
