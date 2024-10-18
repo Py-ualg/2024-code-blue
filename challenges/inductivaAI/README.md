@@ -38,7 +38,7 @@ Inductiva challenges you to come up with an use case of the Inductiva Python API
 ## 💁 Info and mentoring
 
 Luís Cunha (Engineer at Inductiva.AI), [LI][3], [GitHub][4]\
-Francisco Nogueira (Engineer at Inductiva.AI), [LI][5], [GitHub][6]\
+Francisco Nogueira (Engineer at Inductiva.AI), [LI][5], [GitHub][6]
 
 [1]: https://docs.inductiva.ai/en/latest/
 [2]: https://tutorials.inductiva.ai/
