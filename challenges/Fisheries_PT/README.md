@@ -17,6 +17,14 @@ This challenge provides and opportunity to work in fisheries, especially related
 5.	Produce ways to visualize the results. Those should be suitable for scientists, for managers that decide on management actions, and for the general public that might want simple and clear information on consumer practices and choices
 6. What can be improved? What additional monitoring and reporting is missing?
 
+## 💁‍♂️ Solution
+One man show team, Bernd Kishnick, developed a dashboard for the overall fish catches and efforts in the atlantic ocean. It is written in R shiny and after cloning the repository and installing dependencies, the user can run the code in RStudio or simply by
+
+```
+Rscript .\Shiny_dashboard\app.R
+```
+in this directory. Have fun, create PRs if you are interested in improving the dashboard.
+
 ## 💾 Data
 
 * [Global fishing watch][5] (fishing effort).
