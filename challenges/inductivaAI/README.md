@@ -1,31 +1,48 @@
-# Inductiva.ai
+# Inductiva.AI
 
-Inductiva.AI kindly provides access to all their simulators to develop your projects during the hackathon, under the mentoring of Luís Cunha.
+## 🚀 Motivation
+
+Numerical simulations are a fundamental tool in several domains of industrial and academic research.
+
+Running large-scale simulations, however, requires expert knowledge not only in the simulation domain and the simulator software, but also in computational infrastructure.
+
+With Inductiva, a cloud-based **High-Performance Computing (HPC)** platform designed to run numerical simulations, it's easy to run simulations at scale in powerful computational infrastructure without the complex infrastructure management, all from within familiar Python code.
+
+The Inductiva API integrates open-source simulators that span several domains (GROMACS for molecular dynamics, OpenFOAM for fluid dynamics, SWASH for coastal dynamics, among many others).
+
+Inductiva challenges you to come up with an use case of the Inductiva Python API to run a simulation related to the ocean, providing Jupyter notebooks to easily get you started running a coastal dynamics simulation.
 
 ## 🛠️ Tools
-### Current simulators
-1. Coastal dynamics
-2. Hydrodynamics, PDEs
-2. GROMACS for MD simulations
 
-### Links
-* [Docs][1]
-* [Tutorials][2]
+1. [Inductiva API](https://inductiva.ai/): follow the `Get started now` button to create an account in the Inductiva API and get access to an API key.
 
-Contact us if you would wish to use an extra simulator at the event or if you have ideas which you would like to implement in order to coordinate with [inductiva][8].
+2. Check the following notebooks with examples of using the Inductiva API for coastal dynamics simulations. If you don't have Python and Jupyter installed in your machine, you can open them directly in Google Colab.
+    - [Notebook 1](coastal_area.ipynb): run a SWASH simulation of waves in a coastal area. ([open in Google Colab](https://githubtocolab.com/Py-ualg/2024-code-blue/blob/main/challenges/inductivaAI/coastal_area.ipynb))
+    - [Notebook 2](coastal_area_modify_inputs.ipynb): learn how to easily manipulate the input configuration of the previously example simulation. ([open in Google Colab](https://githubtocolab.com/Py-ualg/2024-code-blue/blob/main/challenges/inductivaAI/coastal_area_modify_inputs.ipynb))
+
+## 🔦 Possible directions for the teams
+
+1. Come up with an interesting visualization for a simulation.
+    - You could explore tools such as [PyVista](https://pyvista.org/) or [Blender](https://www.blender.org/).
+2. Train an ML model using synthetic data, for example, to predict the size of a wave in a given point of the coast for different initial conditions of wave amplitude and period.
+    - Start by generating a small dataset by running the same simulation case with different input parameters.
+3. Explore other bathymetry data (*e.g.*, try to use real bathymetry data from the [Algarve coast](https://emodnet.ec.europa.eu/geonetwork/emodnet/search?orgName=Portuguese%20Geographical%20Institute)) and tweak the simulation, for instance, by including a breakwater.
+4. If you're already experienced or interested in another [simulator integrated in the API](https://inductiva.ai/simulators), check them out (*e.g.*, [XBeach](https://tutorials.inductiva.ai/simulators/XBeach.html), [Reef3D](https://tutorials.inductiva.ai/simulators/Reef3D.html)).
+5. Be creative. If you have any other ideas that better align with your background to explore the Inductiva API, talk to us and let's brainstorm!
+
+## Complementary Resources
+
+* [SWASH](https://www.tudelft.nl/citg/over-faculteit/afdelingen/hydraulic-engineering/sections/environmental-fluid-mechanics/research/swash) simulator
+* SWASH [user manual](https://swash.sourceforge.io/online_doc/swashuse/swashuse.html)
 
 ## 💁 Info and mentoring
-Luís Cunha (Engineer at Inductiva.AI), [LI][9]\
-Hugo Penedones (CTO at Inductiva.AI), [LI][3], [Google scholar][4], [GitHub][5]\
-Luis Sarmento (CEO at Inductiva AI),  [LI][6], [Google scholar][7]
 
+Luís Cunha (Engineer at Inductiva.AI), [LI][3], [GitHub][4]\
+Francisco Nogueira (Engineer at Inductiva.AI), [LI][5], [GitHub][6]
 
 [1]: https://docs.inductiva.ai/en/latest/
 [2]: https://tutorials.inductiva.ai/
-[3]: https://www.linkedin.com/in/hpenedones/
-[4]: https://scholar.google.co.uk/citations?user=Gt5sWvIAAAAJ&hl=en&oi=ao
-[5]: https://github.com/hpenedones
-[6]: https://www.linkedin.com/in/luissarmento/
-[7]: https://scholar.google.co.uk/citations?hl=en&user=amSPwgsAAAAJ
-[8]: https://github.com/inductiva
-[9]: https://www.linkedin.com/in/luispcunha/
+[3]: https://www.linkedin.com/in/luispcunha/
+[4]: https://github.com/luispcunha
+[5]: https://www.linkedin.com/in/franreno/
+[6]: https://github.com/franreno
